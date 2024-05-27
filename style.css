@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(80, 173, 173);
+
+}
+.caja1{
+
+    height: 100vh ;
+}
+.caja2{
+    background-color: rgb(75, 214, 98);
+    height: 150vh ;
+}
+.caja3{
+    background-color: rgb(243, 79, 87);
+    height: 100vh ;
+}
+.caja4{
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+}
+.caja5{
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+}
+.caja6{
+    height: 100px;
+    padding: 10px 0 0 0;
+    justify-content: center;
+    justify-content: center;
+    text-align: center;
+}
+.caja7{
+    background-color: rgb(168, 124, 1);
+    height: 600px;
+}
+.caja8{
+    background-color: rgb(204, 201, 191);
+    height: 600px;
+}
+.caja9{
+    background-color: rgb(91, 231, 110);
+    height: 600px;
+}
+.caja10{
+    background-color: antiquewhite;
+    height: 100px;
+}
+ul {
+    list-style: none
+}
+
+.story {
+    border-radius: 100%;
+    height: 65px;
+    width: 65px;
+    border: solid 2px #ee2a7b;
+    padding: 2px;
+    margin: 8px; 
+}
+
+.Perfil {
+    border-radius: 100%;
+    height: 45px;
+    width: 45px;
+    padding: 2px;
+    margin: 8px;
+}
+
+p, .nombreCirculos {
+    font-size: 12px;
+}
+
+.saltoLinea {
+    margin-left: -75px;
+    margin-top: 35px;
+}
+
+.sobreCorazon:hover {
+    background-color: rgb(199, 199, 199);
+}
+
+
+@media (min-width: 150px) and (max-width: 1199px) {
+    .ocultarCaja3 {
+        display: none;
+    }
+}
+
+@media (min-width: 150px) and (max-width: 768px) {
+    .ocultarCaja1 {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 6400px) {
+    .ocultarContenedor {
+        display: none;
+    }
+}
+
+ul {
+    padding-left: 0;
+}
+
+GRADIENTE INSTAGRAM
+    background: rgb(249,206,52);
+    background: linear-gradient(90deg, rgba(249,206,52,1) 0%, rgba(238,42,123,1) 35%, rgba(98,40,215,1) 100%);
